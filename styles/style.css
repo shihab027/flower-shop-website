@@ -1,0 +1,57 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+button{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFFFFF;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: all 1s;
+}
+button:hover{
+    background-color: #16c943;
+}
+
+header{
+    background-color: #E554731A;
+}
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-text *{
+    margin-bottom: 32px;
+    max-width: 525px;
+}
+.banner .banner-text h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #272727;
+}
+
+.banner .banner-img img{
+    width: 100%;
+    vertical-align: middle;
+}
